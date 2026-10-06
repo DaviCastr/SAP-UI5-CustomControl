@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/Control","apps/dflc/customcontrol/control/PlaneInfoRenderer"],function(e,n){"use strict";return e.extend("student04.com.sap.training.ux402.fullscreen.ux402fullscreen.control.PlaneInfo",{metadata:{properties:{seatsMax:{type:"string"},seatsOcc:{type:"string"}}},renderer:n})});
+//# sourceMappingURL=PlaneInfo.js.map

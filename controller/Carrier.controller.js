@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(r){"use strict";return r.extend("apps.dflc.customcontrol.controller.Carrier",{getRouter:function(){return sap.ui.core.UIComponent.getRouterFor(this)},onPress:function(r){var t=r.getSource();var e=t.getBindingContext();var o=e.getProperty("Carrid");this.getRouter().navTo("flights",{carrid:o},false)}})});
+//# sourceMappingURL=Carrier.controller.js.map

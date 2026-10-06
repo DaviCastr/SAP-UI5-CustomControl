@@ -1,0 +1,2 @@
+sap.ui.define(["student00comsaptrainingux402fullscreen/customcontrol/controller/Carrier.controller"],function(r){"use strict";QUnit.module("Carrier Controller");QUnit.test("I should test the Carrier controller",function(t){var n=new r;n.onInit();t.ok(n)})});
+//# sourceMappingURL=Carrier.controller.js.map

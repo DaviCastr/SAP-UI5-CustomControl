@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(e){"use strict";return e.extend("apps.dflc.customcontrol.controller.NotFound",{getRouter:function(){return sap.ui.core.UIComponent.getRouterFor(this)},onNavBack:function(){var e,o;e=sap.ui.core.routing.History.getInstance();o=e.getPreviousHash();if(o!==undefined){window.history.go(-1)}else{this.getRouter().navTo("overview",true)}}})});
+//# sourceMappingURL=NotFound.controller.js.map

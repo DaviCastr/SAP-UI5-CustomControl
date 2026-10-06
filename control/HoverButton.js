@@ -1,0 +1,2 @@
+sap.ui.define(["sap/m/Button"],function(e){"use strict";return e.extend("apps.dflc.customcontrol.control.HoverButton",{metadata:{properties:{allowHover:{type:"boolean",defaultValue:false},hoverText:{type:"string"}},events:{hover:{}}},onmouseover:function(e){if(this.getAllowHover()){this.fireHover()}},renderer:{}})});
+//# sourceMappingURL=HoverButton.js.map
